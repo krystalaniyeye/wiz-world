@@ -1,0 +1,50 @@
+/* Style the form */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the input fields */
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the error messages */
+  .error {
+    color: #red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the form on submission */
+  form.submitted {
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style the form errors */
+  form.error {
+    border-color: #red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  } 
+  
+  
+    
